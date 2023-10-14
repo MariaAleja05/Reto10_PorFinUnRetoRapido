@@ -1,8 +1,11 @@
 # Reto número 10 repo
 ### Fecha:  12-10-2023
 * Mirar archivo Reto10.ipynb
+  
 **1.** Desarrollar un algoritmo que calcule el promedio de un arreglo de reales.
-* EXPLICACIÓN
+* Lo primero que hice fue crear una función, la cual tendrá en cuenta todos los elementos ingresados por el usuario. Esteblecí las variables de suma y promedio como cero para empezar en limpio las cuentas. Allí hay un for que irá sumando todos los elementos de la lista. Luego, el resultado de la suma de este for se dividirá entre la longitud de elementos de la lista que se sumaron para encontrar el promedio.
+
+En la función main creé una lista vacía, y la variable elementos que serán los elementos de la lista que ingrese el usuario. Le solicitó al usuario ingresar el número de elementos que quiere que contenga su lista, y, creé un for el cuál funcionara ese número de elementos e irá añadiendo los elementos a la lista. Llamo la función de promedio y, se imprimirá el resultado de este junto con el arreglo al que se le calculó.
 * Mirar archivo Punto_1.py
 ```pseudocode
 def Promedio(*args) -> float:
@@ -26,7 +29,9 @@ if __name__ == "__main__":
   print("El promedio de los valores es " + str(rta))
 ```
 **2.** Desarrollar un algoritmo que calcule el producto punto de dos arreglos de números enteros (reales) de igual tamaño.
-* EXPLICACIÓN
+* Lo primero que hice fue crear una función, la cual tendrá en cuenta los dos vectores en forma de lista. Esteblecí las variables de productoPunto e i como cero para empezar en limpio las cuentas. Allí hay un for que irá realizando la multiplicación de la posición i del primer vector con la del segundo vector y se sumará el resultado a la variable productoPunto. Se realizará esta operación con todos los elementos de los vectores. La función mostrará el resultado del productoPunto.
+
+En la función main creé dos listas vacias que son mis dos vectores, y la variable elemento1 y elemento2 que serán los elementos de las listas que ingrese el usuario. Le solicitó al usuario ingresar el número de elementos que quiere que contengan los vectores, y, creé dos for (uno para cada lista/vector) el cuál funcionara ese número de elementos e irá añadiendo los elementos a los vectores. Llamo la función de ProductoPunto y, se imprimirá el resultado de este junto con los dos vectores que se evaluaron.
 * Mirar archivo Punto_2.py
 ```pseudocode
 def ProductoPunto(vector1, vector2) -> float:
@@ -55,7 +60,7 @@ if __name__ == "__main__":
   print("El punto medio es: " + str(rta))
 ```
 **3.** Hacer un algoritmo que deje al final de un arreglo de números todos los ceros que aparezcan en dicho arreglo.
-* EXPLICACIÓN
+* En la función main creé una lista vacia, y la variable elemento que serán los elementos del arreglo. Le solicitó al usuario ingresar el número de elementos que quiere que contengan el arreglo, y, creé un for el cuál funcionara ese número de elementos ingresado e irá añadiendo los elementos que ingrese el usuario al arreglo. Uso la función o el método .count para que me muestre la cantidad de elementos que son iguales a "0". Se imprime la cantidad de 0 que hay en el arreglo y también el arreglo resultante.
 * Mirar archivo Punto_3.py
 ```pseudocode
 if __name__ == "__main__":
