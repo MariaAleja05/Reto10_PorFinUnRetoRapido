@@ -5,7 +5,25 @@
 * EXPLICACIÓN
 * Mirar archivo Punto_1.py
 ```pseudocode
+def Promedio(*args) -> float:
+  suma=0
+  promedio=0
+  for i in lista:
+    suma += i
+  promedio = suma/len(lista)
+  return promedio
 
+if __name__ == "__main__":
+  elemento=0
+  lista=[]
+  j = int(input("Ingrese la cantidad de elementos que desea que tenga la lista:"))
+  for elemento in range (j):
+    elemento = float(input("Ingrese un valor real:"))
+    lista.append(elemento)
+  rta = Promedio(elemento)
+  print("----------------------------------------------------------------")
+  print(lista)
+  print("El promedio de los valores es " + str(rta))
 ```
 **2.** Desarrollar un algoritmo que calcule el producto punto de dos arreglos de números enteros (reales) de igual tamaño.
 * EXPLICACIÓN
