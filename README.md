@@ -75,8 +75,8 @@ if __name__ == "__main__":
   print("El número de 0 que aparecen en el arreglo son: " + str(lista.count(0)))
 ```
 **4.** Revisar que son los algoritmos de sorting, entender bubble-sort (enlace a implementación).
-* EXPLICACIÓN
-* Mirar archivo Punto_4.py
-```pseudocode
+* **Algoritmos de sorting:** Son algoritmos diseñados para organizar una lista o arreglo de datos en un orden específico. Existen varios algoritmos de ordenamiento como: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort, Radix Sort.
+* **Bubble-sort:** Este algoritmo compara (según el tipo de orden que se quiera) pares de elementos y los intercambia si están en el orden incorrecto. Continúa haciendo esto hasta que toda la lista esté ordenada. Es de los algoritmos más sencillos para ordenar pero no es eficiente si se implementa en listas grandes.
 
-```
+![bubble_sort](https://github.com/MariaAleja05/Reto10/assets/141857519/42987ea5-75e8-4208-be95-2e128c2ef6c1)
+
