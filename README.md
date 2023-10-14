@@ -29,7 +29,30 @@ if __name__ == "__main__":
 * EXPLICACIÓN
 * Mirar archivo Punto_2.py
 ```pseudocode
+def ProductoPunto(vector1, vector2) -> float:
+  productoPunto=0
+  i=0
+  for i in range (j):
+    productoPunto += (vector1[i]*vector2[i])
+  return productoPunto
 
+if __name__ == "__main__":
+  elemento1=0
+  elemento2=0
+  vector1=[]
+  vector2=[]
+  j = int(input("Ingrese la cantidad de elementos que desea que tenga los vectores:"))
+  for elemento1 in range (j):
+    elemento1 = int(input("Ingrese un valor real para el primer vector:"))
+    vector1.append(elemento1)
+  for elemento2 in range (j):
+    elemento2 = int(input("Ingrese un valor real para el segundo vector:"))
+    vector2.append(elemento2)
+  rta = ProductoPunto(vector1, vector2)
+  print("----------------------------------------------------------------")
+  print(vector1)
+  print(vector2)
+  print("El punto medio es: " + str(rta))
 ```
 **3.** Hacer un algoritmo que deje al final de un arreglo de números todos los ceros que aparezcan en dicho arreglo.
 * EXPLICACIÓN
