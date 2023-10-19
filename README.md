@@ -70,7 +70,7 @@ if __name__ == "__main__":
   for elemento in range (j):
     elemento = int(input("Ingrese un valor real:"))
     lista.append(elemento)
-  print("----------------------------------------------------------------")
+  print("---------------------------------------------------------------")
   print(lista)
   print("El número de 0 que aparecen en el arreglo son: " + str(lista.count(0)))
 ```
